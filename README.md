@@ -14,10 +14,17 @@
 - **Technologies Used**: List the tools and technologies you used (e.g., Python, Pandas, scikit-learn, etc.).
 - **Link**: [View Project](link-to-your-project)
 
-#### Project 2: Title
-- **Description**: Briefly describe what the project is about, the problem it addresses, and any insights you gained.
-- **Technologies Used**: List the tools and technologies you used.
-- **Link**: [View Project](link-to-your-project)
+#### Project 2: Exploratory Data Analysis Using CDC’s 2021 BRFSS
+- **Description**:
+- The Centers for Disease Control (CDC) conducts an annual Behavioral Risk Factor Surveillance System (BRFSS). It is a national survey conducted through random telephone and cellular surveillance. The overarching goal is to evaluate risk factors contributing to the leading causes of morbidity and mortality in the population and help guide health policies. Data can be found here: https://www.cdc.gov/brfss/annual_data/annual_2021.html
+
+This was a project completed for a data analysis in R course. We were tasked with selecting four variables from this data set: one response variable and the three predictors.
+The four selected variables are: CVDINFR4 (history of heart attack), ADDEPEV3 (history of depression), _STATE (state of residence), and ALCDAY5 (number of days alcohol was consumed in the last 30 days).
+
+CVDINFR4 will be the outcome variable. ADDEPEV3, _STATE, and ALCDAY5 will be the predictor variables. I have chosen CVDINFR4 (history of a heart attack) as my background is working as a nurse practitioner in cardiology. Though risk factors for cardiovascular disease are well known, I am interested in taking the opportunity to personally conduct data analysis regrading this. My overarching question is: what is the relationship between cardiovascular disease and socioeconomic factors such as depression, alcohol consumption, and region. To do so I will walk us through an exploratory data analysis and logistic regression modeling.
+
+- **Technologies Used**: R / R Studio with specific emphasis on package tidyverse and use of dplyr. 
+- **Link**: [View Project](https://lylybugg.github.io/CDC_BRFSS_project/)
 
 #### Project 3: Title
 - **Description**: Briefly describe what the project is about, the problem it addresses, and any insights you gained.
