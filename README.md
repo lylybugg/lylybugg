@@ -18,10 +18,10 @@
 - **Technologies Used**: R / R Studio with specific emphasis on package tidyverse and use of dplyr. 
 - **Link**: [View Project](https://lylybugg.github.io/CDC_BRFSS_project/)
 
-#### Project 2: COMING SOON
-- **Description**: 
-- **Technologies Used**: 
-- **Link**: [View Project](link-to-your-project)
+#### Project 2: Avian Influenza Machine Learning Models: Dealing with Class Imbalance
+- **Description**: This project aims to develop machine learning models to predict the presence of avian influenza (HPAI) in birds, using factors like species, location, and time of year. The models—Random Forest, Logistic Regression, and XGBoost—were trained on a dataset with class imbalance, so I  had to employ techniques like class weighting and cross-validation for robust evaluation. A Voting Classifier was implemented to combine the predictions of these models, improving accuracy and robustness. The results showed high accuracy across all models, with the Voting Classifier slightly outperforming others in recall and precision. This work has significant implications for enhancing surveillance and outbreak prevention, particularly in the poultry industry and public health.
+- **Technologies Used**: Python: Pandas, Scikit-learn, Matplotlib & Seaborn, ColumnTransformer, make_pipeline, StandardScaler, OneHotEncoder etc...
+- **Link**: [View Project](https://lylybugg.github.io/HPAI_machine_learning_project/)
 
 #### Project 3: COMING SOON
 - **Description**: 
