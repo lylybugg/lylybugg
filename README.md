@@ -10,31 +10,36 @@
 ### Highlighted Projects & Publications
 
 #### Publication: McAlester J, Kanazawa Y (2022) Situating zoonotic diseases in peacebuilding and development theories: Prioritizing zoonoses in Jordan. PLOS ONE 17(3): e0265508. https://doi.org/10.1371
-- **Description**: Publication based on my thesis work for my Masters in Peace Studies. In this article, I expand the One Health framework by situating zoonotic diseases in peacebuilding and development theories in order to prioritize zoonotic diseases in Jordan. Employing an explanatory sequential mixed methods approach, I assessed the CDC's 12 previously published One Health Zoonotic Disease Prioritization (OHZDP) tools in order to create a new tool that took into consideration the impact of COVID-19 and the refugee situation in Jordan. I then used the updated tool to prioritize zoonoses in Jodan, finding the priority zoonoses to be bovine tuberculosis, brucellosis, and COVID-19, with most having a disproportionately negative impact on refugees. In Jordan’s case, zoonotic diseases represent an area where promoting social equity for individuals is essential to the larger society. In this sense managing zoonoses is an area uniquely suited for peacebuilding.
-- **Technologies Used**: R/R Studio
+- **Description**: Developed a modified CDC One Health Zoonotic Disease Prioritization Tool to identify and prioritize zoonotic diseases in Jordan, with a focus on refugee populations and peace-building strategies. Conducted logistic regression and confirmatory factor analysis using R and Excel to inform targeted capacity-building and resource allocation. Promoted cross-sector collaboration through data-driven insights to support public health planning and policy.
+- **Technologies / Methods Used**: R/R Studio, Excel, logistic regression, confirmatory factor analysis
 
 #### Project 1: Exploratory Data Analysis Using CDC’s 2021 BRFSS
 - **Description**: This was a project completed for a data analysis in R course. We were tasked with selecting four variables from The Centers for Disease Control (CDC)  annual Behavioral Risk Factor Surveillance System (BRFSS). My background is working as a nurse practitioner in cardiology. Though risk factors for cardiovascular disease are well known, I was interested in taking the opportunity to personally conduct data analysis regrading this. My overarching question was: what is the relationship between cardiovascular disease and socioeconomic factors such as depression, alcohol consumption, and region. To evaluate this, I will walk us through an exploratory data analysis and logistic regression modeling of specific variables from the BRFSS dataset.
-- **Technologies Used**: R / R Studio with specific emphasis on package tidyverse and use of dplyr. 
+- **Technologies / Methods Used**: R / R Studio with specific emphasis on package tidyverse and use of dplyr, logistic regression
 - **Link**: [View Project](https://lylybugg.github.io/CDC_BRFSS_project/)
 
 #### Project 2: Avian Influenza Machine Learning Models: Dealing with Class Imbalance
-- **Description**: This project aims to develop machine learning models to predict the presence of avian influenza (HPAI) in birds, using factors like species, location, and time of year. The models—Random Forest, Logistic Regression, and XGBoost—were trained on a dataset with class imbalance, so I  had to employ techniques like class weighting and cross-validation for robust evaluation. A Voting Classifier was implemented to combine the predictions of these models, improving accuracy and robustness. The results showed high accuracy across all models, with the Voting Classifier slightly outperforming others in recall and precision. This work has significant implications for enhancing surveillance and outbreak prevention, particularly in the poultry industry and public health.
-- **Technologies Used**: Python: Pandas, Scikit-learn, Matplotlib & Seaborn, ColumnTransformer, make_pipeline, StandardScaler, OneHotEncoder etc...
+- **Description**: Built and evaluated multiple machine learning models (Random Forest, Logistic Regression, XGBoost) to predict avian influenza (HPAI) outbreaks based on bird species, geography, and seasonality. Addressed class imbalance through cross-validation and class weighting, and improved overall performance using an ensemble Voting Classifier. The final model achieved high accuracy, recall, and precision, supporting more effective surveillance and outbreak prevention efforts. Technologies: Python, scikit-learn, pandas, seaborn, matplotlib, ColumnTransformer, StandardScaler, OneHotEncoder, make_pipeline
+- **Technologies / Methods Used**: Jupyter Notebook / Python: Pandas, Scikit-learn, Matplotlib & Seaborn, ColumnTransformer, make_pipeline, StandardScaler, OneHotEncoder etc...
 - **Link**: [View Project](https://lylybugg.github.io/HPAI_machine_learning_project/)
 
-#### Project 3: COMING SOON
-- **Description**: 
-- **Technologies Used**: 
-- **Link**: [View Project](link-to-your-project)
+#### Project 3: Student Performance Prediction Machine Learning Models
+- **Description**: Designed and developed an interactive Tableau dashboard to deliver real-time insights into key sales KPIs, including regional trends, team performance, and inventory levels. Enabled dynamic data exploration for stakeholders to identify patterns, monitor progress, and drive data-informed decisions.
+- **Technologies / Methods Used**: Tableau
+- **Link**: [View Project](https://public.tableau.com/app/profile/jaclyn.mcalester/viz/SalesPerformanceDashboardExample/SalesPerformanceDashboardJaclynMcAlester)
+
+  #### Project 4: Student Performance Prediction Machine Learning Models
+- **Description**: Developed an end-to-end machine learning pipeline to predict student performance based on key features, enabling early identification of at-risk students for intervention. Utilized Python, NumPy, Pandas, and scikit-learn to implement models including Linear Regression, SVM Regression, and Lasso Regression. Applied scikit-learn pipelines, custom transformers, and ColumnTransformer for efficient data preprocessing. Evaluated model performance using cross-validation, with the SVM model fine-tuned via GridSearchCV to optimize predictive accuracy.
+- **Technologies / Methods Used**: 
+- **Link**: [coming soon](link-to-your-project)
 
 ### Skills
 
-- **Programming Languages**: Python, R, HTML, CSS (will be learning SQL soon in my graduate courses)
-- **Data Analysis Tools**: Pandas, NumPy, R, Excel
-- **Machine Learning Libraries**: scikit-learn
-- **Visualization Tools**: Matplotlib, Seaborn, ggplot2, (will be learning Tableau soon in my graduate courses)
-- **Other Tools**: Git, Jupyter Notebooks
+- **Programming**:  Python, R, SQL, Git, Basic HTML/CSS Software & Tools:  Microsoft Office Suite (Word, Excel, Powerpoint), Google Workspace, EPIC EMR, Jupyter Notebook
+- **Visualization**: Tableau, matplotlib, seaborn, ggplot2
+- **Databases**: PostgreSQL
+- **Analytical Techniques**:  Machine Learning, Regression Analysis, Time Series Analysis, Statistical Modeling
+- **Other**: Communication, conflict resolution, multidisciplinary collaboration, ethical judgment, creating order from chaos
 
 ### Contact
 - **Email**: [curbsideviolets@gmail.com](mailto:curbsideviolets@gmail.com)
